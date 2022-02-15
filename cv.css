@@ -1,9 +1,9 @@
-* 
+* /*Police d'écriture*/
 {
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
 
-header
+header /*Entête*/
 {
 	height: 250px;
 	width: 100%;
@@ -17,20 +17,20 @@ header
 	
 }
 
-#Grid1
+#Grid1 /*Partage de l'espace header, image/texte*/
 {
 	display: grid;
 	grid-template-columns: 40% 60%;
 }
 
-#textH
+#textH /*Texte sur le header*/
 {
 	text-align: left ;
 	font-size: x-large;
 	color:black;
 }
 
-#IMG
+#IMG /*Photo de profil*/
 {
 	width: 220px;
 	height: 250px;
@@ -43,20 +43,20 @@ body
 	margin: 0 ;
 }
 
-#Grid2 
+#Grid2 /*Partage des barres latéraux (gauche et droite) SC1 et SC2*/
 {
 	display: grid;
 	grid-template-columns: 30% 70%;
 }
 
-#SC1
+#SC1 /*Barre latéral gauche*/
 {
 	text-align: left;
 	margin-left: 50px;
 	padding-top: 2em ;
 }
 
-#SC2
+#SC2 /*Barre latéral droite*/
 {
 	text-align: left;
 	background-color: darkgray;
@@ -67,7 +67,7 @@ body
 	padding-right: 5em;
 }
 
-#SCFOOTER
+#SCFOOTER /*Bas de page Footer*/
 {
 	background: #b5bdc8;
 	background: -moz-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%); 
@@ -81,30 +81,30 @@ body
 	padding-bottom: 0.5em;
 }
 
-h2
+h2 /*Souligner les h2*/
 {
 	text-decoration: underline;
 }
 
 
-.h23 
+.h23 /*Marge pour la classe H23*/
 {
 	margin-bottom: 1.5em;
 }
 
-a 
+a /*Pour les liens, effet du curseur*/
 {
 	cursor: pointer;
 	color: black;
 }
 
-a:hover 
+a:hover /*Apparence des liens au moment où l'utilisateur le survole avec le pointeur*/
 {
 	font-size: 18px;
 	color: rgb(51, 48, 48);
 }
 
-#ICONE
+#ICONE /*taille des Incones*/
 {
 	width: 18px;
 }
